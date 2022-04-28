@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300;700&display=swap');
+
+/* Vars */
+:root {
+  /* Fonts */
+  --headingFont: 'Spectral', serif;
+  --bodyFont: 'Karla', sans-serif;
+  --smallText: 0.8rem;
+  /* Background Colors */
+  --backgroundColor: var(--grey-50);
+  /* Text Colors */
+  --textColor: var(--grey-900);
+  /* Rest Of Vars */
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: all 0.3s ease-in-out;
+  --maxWidth: 1170px;
+  --fixedWidth: 600px;
+  /* Box Shadow */
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFont);
+  font-weight: 600;
+}
+
+/* Body */
+body {
+  font-family: var(--bodyFont);
+  font-weight: 400;
+}
+
+/* Paragraphs */
+p {
+  max-width: var(--fixedWidth);
+}
+
+/* Utilities */
+.height-100 {
+  min-height: 100vh;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+.height-70 {
+  height: 70vh;
+}
+
+.title-underline {
+  height: 0.2rem;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.text-shadow {
+  text-shadow: 0.2rem 0.3rem 10px black;
+}
+
+/* 
+==============
+Navbar
+==============
+*/
+.logo-img-container {
+  font-size: 1.1rem;
+}
+
+.logo-img {
+  height: 3rem;
+}
+
+.navbar-switch {
+  transition: all 0.4s linear;
+  box-shadow: var(--shadow-2);
+}
+
+.nav-item {
+  transition: all 0.3s linear;
+}
+
+.nav-item:hover {
+  background: rgb(255, 193, 7);
+}
+
+.nav-item:hover .nav-link {
+  padding-left: 1.3rem;
+}
+
+.nav-item:hover .nav-last {
+  padding-left: 0.5rem;
+}
+
+.nav-link.scroll-link {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.nav-link.nav-last {
+  padding: 0.5rem 0;
+  transition: all 0.3s linear;
+}
+
+@media screen and (min-width: 345px) {
+  .logo-img-container {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .logo-img-container {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .logo-img-container {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo-img-container {
+    font-size: 1rem;
+  }
+  .nav-item:hover {
+    background: transparent;
+  }
+  .nav-item:hover .nav-link {
+    padding: 0.5rem;
+  }
+  .nav-item:hover .nav-last {
+    padding: 0.5rem;
+  }
+  .nav-item .nav-link.scroll-link,
+  .nav-item .nav-link.nav-last {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+  }
+  .nav-item .nav-link.scroll-link:hover,
+  .nav-item .nav-link.nav-last:hover {
+    color: rgb(255, 193, 7);
+  }
+  .nav-item .nav-link.scroll-link:focus,
+  .nav-item .nav-link.nav-last:focus {
+    color: #fff;
+  }
+
+  .nav-item .nav-link.scroll-link.scroll-down:hover,
+  .nav-item .nav-link.nav-last.scroll-down:hover {
+    color: #222;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-img-container {
+    font-size: 1.5rem;
+  }
+  .nav-item .nav-link.scroll-link,
+  .nav-item .nav-link.nav-last {
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+  }
+}
+
+/* 
+===========
+Header
+===========
+*/
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../img/bcg-hero.jpeg') no-repeat center/cover;
+  height: 100vh;
+}
+
+/* 
+==============
+About
+=============
+*/
+.about-picture {
+  background: url('../img/about.jpg') no-repeat center/cover fixed;
+}
+
+@media screen and (min-width: 768px) {
+  .about-picture {
+    background-attachment: scroll;
+  }
+}
+
+/* 
+===========
+Projects
+===========
+*/
+
+/* 
+===========
+Services
+===========
+*/
+.img-height {
+  min-height: 241px;
+  object-fit: cover;
+}
+
+.card-footer-link {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.card-footer .card-footer-link:hover {
+  color: #ffc107;
+}
+
+/* 
+===========
+Work Examples
+===========
+*/
+.carousel-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  margin-right: 0.5rem !important;
+}
+
+.carousel-height {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* 
+===========
+Info Filler
+===========
+ */
+#info {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../img/wood-plank.jpg') no-repeat center/cover fixed;
+  min-height: 500px;
+}
+
+/* 
+============
+Categories
+============
+*/
+#categories {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/roof-truss-bck.jpg') no-repeat center/cover;
+}
+
+.categories-card {
+  max-width: 350px;
+}
+
+.categories-img-container,
+.categories-img {
+  height: 250px;
+  width: 250px;
+}
+
+.categories-img {
+  object-fit: cover;
+  transition: transform 1s linear;
+}
+
+.categories-img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 992px) {
+  .categories-img-container,
+  .categories-img {
+    width: 200px;
+    height: 200px;
+  }
+  .categories-title {
+    font-size: 30px;
+  }
+}
+
+/* 
+=================
+Expertise Section
+=================
+*/
+.expertise-card {
+  border-radius: 1.5rem;
+}
+
+.expertise-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 0.7rem;
+  border: 2px solid #222;
+}
+
+/* 
+===================
+Experience Section
+===================
+*/
+#experience {
+  background: linear-gradient(
+    to right,
+    #fff 0 20%,
+    rgb(255, 193, 7) 20% 80%,
+    white 80% 100%
+  );
+}
+
+.experience-img-container {
+  max-width: 300px;
+  margin-left: 1.5rem;
+}
+
+.experience-card {
+  max-width: 300px;
+  margin-left: 5.5rem;
+  margin-top: -1.5rem;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 400px) {
+  .experience-img-container {
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .experience-img-container,
+  .experience-card {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .experience-img-container,
+  .experience-card {
+    max-width: 600px;
+    margin: 0;
+  }
+  .experience-card {
+    margin-left: -4rem;
+  }
+}
+
+/* 
+=======================
+Project Planning Section
+========================
+*/
+#project-planning {
+  background: url('../img/project-planning.jpg') no-repeat center/cover;
+}
+
+/* 
+================
+Contact Section
+================
+*/
+.contact-input,
+.contact-input-btn {
+  border-radius: 10px;
+}

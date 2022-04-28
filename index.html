@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-switch">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#header">
+          <div
+            class="logo-img-container text-white fw-bold d-flex align-items-center lh-1 p-2"
+          >
+            <img
+              src="./img/smith-remodle.png"
+              alt=""
+              class="d-inline-block align-text-center logo-img me-2 border border-2 border-warning"
+            />
+            Smith Construction <br />
+            & Remodeling
+          </div>
+        </a>
+        <button
+          class="navbar-toggler border-white border-2 rounded-0 p-2 fs-1"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <i class="fa-solid fa-align-justify text-white"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end sidebar"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-dark text-white">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Smith Construction & Remodeling
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset bg-danger"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <ul class="navbar-nav justify-content-end flex-grow-1 fs-4">
+              <li class="nav-item" data-bs-dismiss="offcanvas">
+                <a
+                  class="nav-link scroll-link scroll-down"
+                  aria-current="page"
+                  href="#header"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item" data-bs-dismiss="offcanvas">
+                <a class="nav-link scroll-link" href="#about">About</a>
+              </li>
+              <li class="nav-item" data-bs-dismiss="offcanvas">
+                <a class="nav-link scroll-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item" data-bs-dismiss="offcanvas">
+                <a class="nav-link scroll-link" href="#work-examples"
+                  >Work Examples</a
+                >
+              </li>
+              <li class="nav-item" data-bs-dismiss="offcanvas">
+                <a class="nav-link scroll-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item px-3 dropdown">
+                <a
+                  class="nav-link nav-last scroll-down dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Remodels and Add-Ons</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Outdoor living areas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Homes</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Painting</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Plumbing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Flooring</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Home Cleaning</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Electrical</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of Navbar -->
+    <!-- Header -->
+    <header id="header" class="py-5">
+      <div class="container">
+        <div class="row height-100 align-items-center">
+          <div class="col">
+            <h1 class="text-warning text-uppercase fw-bold fst-italic">
+              <strong
+                >Thoughtful, collaborative <br />
+                and insightful</strong
+              >
+              <br />
+              <small class="text-light"
+                >smith construction <br />
+                and remodeling</small
+              >
+            </h1>
+            <p class="text-muted lead py-2 w-75">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              modi cumque culpa odit corporis ab?
+            </p>
+            <a
+              href="#contact"
+              class="btn btn-outline-warning btn-lg m-2 text-capitalize"
+              >contact us</a
+            >
+            <a
+              href="#projects"
+              class="btn btn-outline-light btn-lg m-2 text-capitalize"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Of Header -->
+    <!-- Skills -->
+    <section id="skills" class="py-5 bg-white">
+      <div class="container">
+        <!-- Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong>skills</strong>
+            </h2>
+            <div class="title-underline bg-warning"></div>
+            <p class="mt-2 text-capitalize text-muted fw-bold mx-auto">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Title -->
+        <div class="row">
+          <!-- Single Col -->
+          <div class="col-md-6 col-lg-4 text-center my-4">
+            <i class="fa-solid fa-building fa-5x fa-fw text-warning"></i>
+            <h3 class="text-uppercase my-3">new construction</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              perspiciatis iusto id, blanditiis ex alias?
+            </p>
+            <div class="d-grid col-6 mx-auto">
+              <a href="#" class="btn btn-outline-warning text-uppercase"
+                >see more</a
+              >
+            </div>
+          </div>
+          <!-- End Of Single Col -->
+
+          <!-- Single Col -->
+          <div class="col-md-6 col-lg-4 text-center my-4">
+            <i class="fa-solid fa-hammer fa-5x fa-fw text-warning"></i>
+            <h3 class="text-uppercase my-3">remodeling</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              perspiciatis iusto id, blanditiis ex alias?
+            </p>
+            <div class="d-grid col-6 mx-auto">
+              <a href="#" class="btn btn-outline-warning text-uppercase"
+                >see more</a
+              >
+            </div>
+          </div>
+          <!-- End Of Single Col -->
+
+          <!-- Single Col -->
+          <div class="col-md-6 col-lg-4 text-center my-4">
+            <i class="fa-solid fa-ruler-combined fa-5x fa-fw text-warning"></i>
+            <h3 class="text-uppercase my-3">add ons</h3>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              perspiciatis iusto id, blanditiis ex alias?
+            </p>
+            <div class="d-grid col-6 mx-auto">
+              <a href="#" class="btn btn-outline-warning text-uppercase"
+                >see more</a
+              >
+            </div>
+          </div>
+          <!-- End Of Single Col -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Skills -->
+    <!-- About -->
+    <section id="about" class="bg-primary">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- About Img -->
+          <div class="col-md-6 about-picture height-80"></div>
+          <!-- About Text -->
+          <div class="col-md-6 height-80 px-5 d-flex align-items-center">
+            <!-- This is for Centering -->
+            <div class="about-text-text-center">
+              <!-- Title -->
+              <div class="row">
+                <div class="col text-center">
+                  <h2 class="display-4 text-uppercase text-dark mb-0">
+                    <strong>about</strong>
+                  </h2>
+                  <div class="title-underline bg-warning"></div>
+                  <p class="mt-2 text-capitalize text-muted fw-bold mx-auto">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+              </div>
+              <!-- End Of Title -->
+              <!-- Single Item -->
+              <div class="checkbox-item d-flex mb-3">
+                <i
+                  class="fa-solid fa-square-check fa-3x text-warning p-2 me-2 align-self-center"
+                ></i>
+                <p class="text-light lead mb-0">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero, dolorem.
+                </p>
+              </div>
+              <!-- End Of Single Item -->
+              <!-- Single Item -->
+              <div class="checkbox-item d-flex mb-3">
+                <i
+                  class="fa-solid fa-square-check fa-3x text-warning p-2 me-2 align-self-center"
+                ></i>
+                <p class="text-light lead mb-0">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero, dolorem.
+                </p>
+              </div>
+              <!-- End Of Single Item -->
+              <!-- Single Item -->
+              <div class="checkbox-item d-flex">
+                <i
+                  class="fa-solid fa-square-check fa-3x text-warning p-2 me-2 align-self-center"
+                ></i>
+                <p class="text-light lead mb-0">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Libero, dolorem.
+                </p>
+              </div>
+              <!-- End Of Single Item -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of About -->
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-secondary">
+      <div class="container">
+        <!-- Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong>projects</strong>
+            </h2>
+            <div class="title-underline bg-warning"></div>
+            <p class="mt-2 text-capitalize text-white fw-bold mx-auto mb-4">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Title -->
+        <div class="row">
+          <!-- Single Project -->
+          <div class="col-md-6 col-lg-4 project-img-container mb-3 mb-lg-0">
+            <a
+              href="#"
+              class="text-decoration-none modal-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#reg-modal"
+              data-id="first"
+            >
+              <h3
+                class="bg-dark text-white text-capitalize text-center mb-0 py-2 border-end border-start border-top border-2 border-white"
+              >
+                blue ridge House
+              </h3>
+              <img
+                src="./img/blue-ridge-outside-front.webp"
+                class="img-fluid rounded-bottom border-2 border-start border-end border-bottom border-white project-img"
+                alt="Blue Ridge House"
+              />
+            </a>
+          </div>
+          <!-- End Of Single Project -->
+          <!-- Single Project -->
+          <div class="col-md-6 col-lg-4 project-img-container mb-3 mb-lg-0">
+            <a
+              href="#"
+              class="text-decoration-none modal-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#reg-modal"
+              data-id="second"
+            >
+              <h3
+                class="bg-dark text-white text-capitalize text-center mb-0 py-2 border-end border-start border-top border-2 border-white"
+              >
+                blue ridge trailer
+              </h3>
+              <img
+                src="./img/blue-ridge-trailer-kitchen-min.jpg"
+                class="img-fluid rounded-bottom border-2 border-start border-end border-bottom border-white project-img"
+                alt="Blue Ridge House"
+              />
+            </a>
+          </div>
+          <!-- End Of Single Project -->
+          <!-- Single Project -->
+          <div class="col-md-6 col-lg-4 project-img-container">
+            <a
+              class="text-decoration-none modal-btn"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#reg-modal"
+              data-id="third"
+            >
+              <h3
+                class="bg-dark text-white text-capitalize text-center mb-0 py-2 border-end border-start border-top border-2 border-white"
+              >
+                blue ridge inside
+              </h3>
+              <img
+                src="./img/blue-ridge.webp"
+                class="img-fluid rounded-bottom border-2 border-start border-end border-bottom border-white project-img"
+                alt="Blue Ridge House"
+              />
+            </a>
+          </div>
+          <!-- End Of Single Project -->
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" tabindex="-1" id="reg-modal">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5
+                  class="modal-title bg-dark text-white border border-warning border-2 p-2"
+                >
+                  Blue Ridge
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body modal-show">
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators carousel-btn-container"></div>
+                  <div class="carousel-inner carousel-container"></div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Of Modal -->
+      </div>
+    </section>
+    <!-- End Of Projects -->
+
+    <!-- Services -->
+    <section id="services" class="bg-light py-5">
+      <div class="container">
+        <!-- Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong>services</strong>
+            </h2>
+            <div class="title-underline bg-warning"></div>
+            <p class="mt-2 text-capitalize text-muted fw-bold mx-auto mb-4">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Title -->
+        <div class="row">
+          <!-- Single Service -->
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="./img/home.jpg"
+                class="card-img-top img-height"
+                alt="remodeling and additions"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Remodeling and Additions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatem ex architecto placeat asperiores molestiae quae
+                  nobis doloribus pariatur vitae nostrum?
+                </p>
+                <a href="#" class="btn btn-outline-warning text-uppercase">
+                  see more
+                </a>
+              </div>
+              <div class="card-footer bg-secondary d-flex">
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 1</a
+                >
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 2</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Service -->
+
+          <!-- Single Service 2 -->
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="./img/outdoor.jpg"
+                class="card-img-top img-height"
+                alt="remodeling and additions"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Outdoor Living Area</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatem ex architecto placeat asperiores molestiae quae
+                  nobis doloribus pariatur vitae nostrum?
+                </p>
+                <a href="#" class="btn btn-outline-warning text-uppercase">
+                  see more
+                </a>
+              </div>
+              <div class="card-footer bg-secondary d-flex">
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 1</a
+                >
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 2</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Service 2 -->
+
+          <!-- Single Service 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img
+                src="./img/carpenter.jpg"
+                class="card-img-top img-height"
+                alt="remodeling and additions"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Home Services</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptatem ex architecto placeat asperiores molestiae quae
+                  nobis doloribus pariatur vitae nostrum?
+                </p>
+                <a href="#" class="btn btn-outline-warning text-uppercase">
+                  see more
+                </a>
+              </div>
+              <div class="card-footer bg-secondary d-flex">
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 1</a
+                >
+                <a
+                  href="#"
+                  class="card-link text-decoration-none card-footer-link"
+                  >Project 2</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Service 3 -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Services -->
+
+    <!-- Work Examples -->
+    <section id="work-examples" class="bg-warning py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong>examples of work</strong>
+            </h2>
+            <div class="title-underline bg-white"></div>
+            <p class="mt-2 text-capitalize text-muted fw-bold mx-auto mb-4">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Section Title -->
+        <div class="row">
+          <div class="col-md-12 mx-auto text-center">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active overlay">
+                  <img
+                    src="./img/blue-ridge-outside-front.webp"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Outside Front"
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="mb-3">Blue Ridge Outside Front</h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item overlay">
+                  <img
+                    src="./img/blue-ridge-bar.webp"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Bar"
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="mb-3">Blue Ridge Bar</h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item overlay">
+                  <img
+                    src="./img/blue-ridge.webp"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Inside Bar "
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="text-capitalize mb-3">blue ridge bar inside</h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item overlay">
+                  <img
+                    src="./img/blue-ridge-trailer-front-porch-min.jpg"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Front Porch "
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="text-capitalize mb-3">blue ridge front porch</h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item overlay">
+                  <img
+                    src="./img/blue-ridge-trailer-bedroom-min.jpg"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Bedroom
+                  "
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="text-capitalize mb-3">
+                      blue ridge master bed room
+                    </h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item overlay">
+                  <img
+                    src="./img/blue-ridge-trailer-kitchen-min.jpg"
+                    class="d-block w-100 carousel-height"
+                    alt="Blue Ridge Kitchen
+                  "
+                  />
+                  <div class="carousel-caption">
+                    <h4 class="text-capitalize mb-3">blue ridge kitchen</h4>
+                    <p class="mx-auto d-none d-md-block lead fst-italic">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Repellat, maxime!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Work Examples -->
+
+    <!-- Info Filler Section -->
+    <section id="info" class="text-center py-5">
+      <div class="container">
+        <div class="row align-items-center height-70">
+          <div class="col">
+            <h4 class="text-warning display-4 text-shadow">
+              Smith Construction <br />
+              and Remodeling
+            </h4>
+            <p class="lead text-white mx-auto fw-bold text-shadow px-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at
+              architecto molestias error nam, dolorum placeat ut! Illo,
+              recusandae quidem.
+            </p>
+            <strong class="d-block text-white mb-3 display-3 text-shadow"
+              >(214) 491-0512</strong
+            >
+            <a
+              href="tel:2144910512"
+              class="btn btn-warning text-capitalize fs-4 me-3"
+              >call now</a
+            >
+            <a href="#contact" class="btn btn-light text-capitalize fs-4"
+              >contact form</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Info Filler Section -->
+
+    <!-- Home Repair Section -->
+    <section id="home-repair" class="bg-dark py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-white mb-0">
+              <strong class="px-3">Home repair services</strong>
+            </h2>
+            <div class="title-underline bg-white"></div>
+            <p class="mt-2 text-capitalize text-muted fw-bold mx-auto mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+              iste qui quo fuga ducimus pariatur animi voluptatem labore!
+              Provident, aspernatur.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Section Title -->
+        <div class="row text-md-center">
+          <div class="col-md-6 col-lg-4 my-3">
+            <h2 class="text-warning fw-bold display-5">Painting</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 my-4">
+            <h2 class="text-warning fw-bold display-5">Plumbing</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 my-4">
+            <h2 class="text-warning fw-bold display-5">Remodeling</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 my-4 mb-lg-0">
+            <h2 class="text-warning fw-bold display-5">Flooring</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 my-4 mb-md-0">
+            <h2 class="text-warning fw-bold display-5">Home Cleaning</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 my-4 mb-md-0">
+            <h2 class="text-warning fw-bold display-5">Electrical</h2>
+            <p class="text-white fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              porro at in maiores distinctio? Ipsa temporibus adipisci quia vero
+              facere hic quos, inventore magni possimus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Home Repair Section -->
+
+    <!-- Story Section -->
+    <section id="story" class="bg-primary py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong class="text-white"
+                >turning good ideas into great places to live</strong
+              >
+            </h2>
+            <div class="title-underline bg-warning"></div>
+            <p
+              class="mt-2 mb-4 text-capitalize text-muted fw-bold mx-auto mb-4"
+            >
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Section Title -->
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card p-4">
+              <img src="./img/story-1.jpg" alt="Construction guys working" />
+              <div class="card-body">
+                <h5 class="card-title display-6 text-capitalize fw-light">
+                  our story
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptas quia esse placeat eos possimus, incidunt repellendus.
+                  Enim, totam culpa!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card p-4">
+              <img src="./img/story-2.jpg" alt="Construction guys working" />
+              <div class="card-body">
+                <h5 class="card-title display-6 text-capitalize fw-light">
+                  how we build
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptas quia esse placeat eos possimus, incidunt repellendus.
+                  Enim, totam culpa!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-lg-0">
+            <div class="card p-4">
+              <img src="./img/story-3.jpg" alt="Construction guys working" />
+              <div class="card-body">
+                <h5 class="card-title display-6 text-capitalize fw-light">
+                  our projects
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                  voluptas quia esse placeat eos possimus, incidunt repellendus.
+                  Enim, totam culpa!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Story Section -->
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-5">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong class="text-white">building company</strong>
+            </h2>
+            <div class="title-underline bg-warning"></div>
+            <p class="mt-2 text-capitalize text-warning fw-bold mx-auto mb-5">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Section Title -->
+        <div class="row">
+          <!-- Single Item 1 -->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="card py-5 bg-warning categories-card mx-auto">
+              <a
+                href="#"
+                class="categories-img-container mx-auto overflow-hidden border border-3 border-white d-block rounded-circle"
+              >
+                <img
+                  src="./img/new-homes-min.jpg"
+                  class="categories-img d-block mx-auto rounded-circle"
+                  alt="house project"
+                />
+              </a>
+              <div class="card-body">
+                <h5
+                  class="card-title text-center display-5 mb-0 text-capitalize categories-title"
+                >
+                  new homes
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 1 -->
+          <!-- Single Item 2 -->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="card py-5 bg-warning categories-card mx-auto">
+              <a
+                href="#"
+                class="categories-img-container mx-auto overflow-hidden border border-3 border-white d-block rounded-circle"
+              >
+                <img
+                  src="./img/remodeling-min.jpg"
+                  class="categories-img d-block mx-auto rounded-circle"
+                  alt="house project"
+                />
+              </a>
+              <div class="card-body">
+                <h5
+                  class="card-title text-center mb-0 text-capitalize display-5 categories-title"
+                >
+                  remodeling
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 2 -->
+          <!-- Single Item 3 -->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="card py-5 bg-warning categories-card mx-auto">
+              <a
+                href="#"
+                class="categories-img-container mx-auto overflow-hidden border border-3 border-white d-block rounded-circle"
+              >
+                <img
+                  src="./img/add-ons-min.jpg"
+                  class="categories-img d-block mx-auto rounded-circle"
+                  alt="Add On Project"
+                />
+              </a>
+              <div class="card-body">
+                <h5
+                  class="card-title text-center mb-0 text-capitalize display-5 categories-title"
+                >
+                  add ons
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 3 -->
+          <!-- Single Item 4 -->
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="card py-5 bg-warning categories-card mx-auto">
+              <a
+                href="#"
+                class="categories-img-container mx-auto overflow-hidden border border-3 border-white d-block rounded-circle"
+              >
+                <img
+                  src="./img/patio-min.jpg"
+                  class="categories-img d-block mx-auto rounded-circle"
+                  alt="Add On Project"
+                />
+              </a>
+              <div class="card-body">
+                <h5
+                  class="card-title text-center mb-0 text-capitalize display-5 categories-title"
+                >
+                  outdoor
+                </h5>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 4 -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Categories Section -->
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-5 bg-secondary">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="display-4 text-uppercase text-dark mb-0">
+              <strong class="text-warning">we take pride in building</strong>
+            </h2>
+            <div class="title-underline bg-white"></div>
+            <p class="mt-2 text-capitalize text-muted fw-bold mx-auto">
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <!-- End Of Section Title -->
+        <div class="row">
+          <!-- Single Item 1 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center p-4 h-100 expertise-card">
+              <span>
+                <i
+                  class="fa-solid fa-helmet-safety expertise-icon bg-warning"
+                ></i>
+              </span>
+              <div class="card-body pt-0">
+                <h5 class="card-title display-6 text-capitalize">
+                  Expertise in the industry
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus ab, repellendus officia harum earum neque iusto
+                  cumque consectetur odit debitis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 1 -->
+          <!-- Single Item 2 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center p-4 h-100 expertise-card">
+              <span>
+                <i
+                  class="fa-solid fa-handshake-angle expertise-icon bg-warning"
+                ></i>
+              </span>
+              <div class="card-body pt-0">
+                <h5 class="card-title display-6 text-capitalize">
+                  Proven Track Record
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus ab, repellendus officia harum earum neque iusto
+                  cumque consectetur odit debitis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 2 -->
+          <!-- Single Item 3 -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="card text-center p-4 h-100 expertise-card">
+              <span>
+                <i class="fa-solid fa-hammer expertise-icon bg-warning"></i>
+              </span>
+              <div class="card-body pt-0">
+                <h5 class="card-title display-6 text-capitalize">
+                  Quality Craftsmanship
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus ab, repellendus officia harum earum neque iusto
+                  cumque consectetur odit debitis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 3 -->
+          <!-- Single Item 4 -->
+          <div class="col-md-6">
+            <div class="card text-start p-4 expertise-card bg-warning h-100">
+              <div class="card-body pt-0">
+                <h5 class="card-title display-6 text-capitalize">
+                  the team for you
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora impedit adipisci debitis quidem, qui culpa aliquam ex
+                  tenetur enim incidunt iusto sapiente magnam. Numquam autem
+                  deserunt quam aliquid repellat expedita sint. Quo labore sunt
+                  nulla.
+                </p>
+                <a
+                  href="tel:2144910512"
+                  class="card-link text-decoration-none fs-2"
+                >
+                  <i class="fa-solid fa-phone text-white"></i>
+                  <span class="text-white">(214) 491-0512</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End Of Single Item 4 -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Expertise Section -->
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <div class="row flex-column flex-lg-row align-items-lg-center">
+          <div class="col">
+            <div class="experience-img-container">
+              <img
+                src="./img/experience-img-min.jpg"
+                class="w-100 experience-img"
+                alt="Experienced Worker"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card experience-card border-0">
+              <div class="card-body">
+                <h5 class="card-title display-6 fw-bold">
+                  We have 10+ years of experience
+                </h5>
+                <p class="card-text lead">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-warning btn-lg text-capitalize"
+                  >see more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Experience Section -->
+    <!-- Project Planning Section -->
+    <section id="project-planning" class="height-80">
+      <div class="container h-100">
+        <div
+          class="row h-100 align-items-end justify-content-center justify-content-md-end"
+        >
+          <div class="col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5">
+            <div class="card border-0 rounded-0 py-4 px-2">
+              <div class="card-body">
+                <h5 class="card-title display-5 fw-bold">Project Planning</h5>
+                <p class="card-text lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Illum ad quia aperiam delectus facere dolor blanditiis quam
+                  impedit possimus ut!
+                </p>
+                <a href="#" class="btn btn-warning text-capitalize"
+                  >read more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Project Planning Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-warning">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <!-- Single Item 1 -->
+          <div class="col-9 col-md-4 mb-5 mb-md-0">
+            <h3 class="text-capitalize text-primary display-4 fw-bold">
+              get in touch
+            </h3>
+            <p class="fw-bold fst-italic">
+              We can ensure reliability, low cost fares and most important, with
+              safety and comfort in mind.
+            </p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              nostrum saepe, dolorum harum nihil cupiditate corporis, tempore
+              totam at ratione magni assumenda asperiores, optio delectus!
+            </p>
+            <div class="social-icons">
+              <a href="#" class="me-2 text-decoration-none">
+                <i
+                  class="fa-brands fa-facebook text-primary fa-2x rounded-circle"
+                ></i>
+              </a>
+              <a href="#" class="me-2 text-decoration-none">
+                <i
+                  class="fa-brands fa-twitter text-primary fa-2x rounded-circle"
+                ></i>
+              </a>
+              <a href="#" class="me-2 text-decoration-none">
+                <i
+                  class="fa-brands fa-instagram text-primary fa-2x rounded-circle"
+                ></i>
+              </a>
+              <a href="#" class="me-2 text-decoration-none">
+                <i
+                  class="fa-brands fa-youtube text-primary fa-2x rounded-circle"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Of Single Item 1 -->
+          <!-- Single Item 2 -->
+          <div class="col-9 col-md-4 mb-5 mb-md-0 ps-lg-5">
+            <h5 class="text-uppercase text-primary">call us</h5>
+            <a href="tel:2144910512" class="text-decoration-none">
+              <p class="fs-5">(214) 491-0512</p>
+            </a>
+            <h5 class="text-uppercase text-primary">location</h5>
+            <p class="fs-5">
+              48 Kingfisher drive, <br />
+              Winnsboro Texas, 75494
+            </p>
+            <h5 class="text-uppercase text-primary">our top services</h5>
+            <div class="services-text d-flex align-items-center mb-1">
+              <i class="fa-solid fa-check me-2 text-primary"></i>
+              <p class="m-0 fs-6">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="services-text d-flex align-items-center mb-1">
+              <i class="fa-solid fa-check me-2 text-primary"></i>
+              <p class="m-0 fs-6">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="services-text d-flex align-items-center">
+              <i class="fa-solid fa-check me-2 text-primary"></i>
+              <p class="m-0 fs-6">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <!-- End Of Single Item 2 -->
+          <!-- Single Item 3 -->
+          <div class="col-9 col-md-4">
+            <h3 class="text-capitalize text-primary display-4 fw-bold">
+              contact us
+            </h3>
+            <form
+              action="https://formspree.io/f/meqnpazb"
+              method="POST"
+              class="form-submit"
+            >
+              <div class="mb-3">
+                <label for="name" class="form-label d-md-none">Name</label>
+                <input
+                  type="text"
+                  class="form-control py-2 contact-input"
+                  id="name"
+                  placeholder="Enter your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label d-md-none"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control py-2 contact-input"
+                  id="email"
+                  placeholder="Enter a valid email address"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label d-md-none"
+                  >Message</label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control py-2 contact-input"
+                  placeholder="Enter message"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >I would like to recieve emails for info and discounts</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary w-100 contact-input-btn"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+          <!-- End Of Single Item 3 -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Contact Section -->
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-md-5 mb-5 mb-md-0">
+            <h3 class="text-capitalize display-5">
+              smith construction and remodeling
+            </h3>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              ipsum ducimus fugit accusamus eveniet! Molestiae tempore est
+              libero animi error.
+            </p>
+          </div>
+          <div class="col-md-7 text-white">
+            <div class="row">
+              <!-- Single Item 1 -->
+              <div class="col-4">
+                <h5 class="text-capitalize">our services</h5>
+                <ul class="p-0">
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >about us</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >our work</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >pricing</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >services</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- End Of Single Item 1 -->
+              <!-- Single Item 2 -->
+              <div class="col-4">
+                <h5 class="text-capitalize">company</h5>
+                <ul class="p-0">
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >terms of use</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >contact us</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >projects</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- End Of Single Item 2 -->
+              <!-- Single Item 3 -->
+              <div class="col-4">
+                <h5 class="text-capitalize">follow us</h5>
+                <ul class="p-0">
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >facebook</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >twitter</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >instagram</a
+                    >
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-capitalize"
+                      >youtube</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- End Of Single Item 3 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End OfFooter -->
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
