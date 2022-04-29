@@ -233,12 +233,9 @@ Projects
 }
 
 /* Modal Styles */
-.modal {
-  height: 100vh;
-}
 
 .modal-img-1 {
-  max-height: 500px;
+  max-height: 85vh;
   min-height: 504px;
   object-fit: cover;
 }
