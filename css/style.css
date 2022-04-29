@@ -244,8 +244,8 @@ Projects
   box-shadow: var(--shadow-2);
 }
 
-.modal-content {
-  height: 100%;
+.modal-show {
+  height: calc(100vh - 73px);
 }
 
 .modal-img-1 {
@@ -253,7 +253,7 @@ Projects
 }
 
 @media screen and (min-width: 1200px) {
-  .modal-content {
+  .modal-show {
     height: calc(100% - 79px);
   }
 }
