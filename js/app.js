@@ -1,8 +1,6 @@
 // Vars
 const modalBtns = document.querySelectorAll('.modal-btn');
-const modalImg1 = document.querySelector('.modal-img-1');
-const modalImg2 = document.querySelector('.modal-img-2');
-const modalImg3 = document.querySelector('.modal-img-3');
+
 const modalTitle = document.querySelector('.modal-title');
 const modalText = document.querySelector('.modal-text');
 const navbar = document.querySelector('.navbar-switch');
@@ -11,11 +9,11 @@ const scrollLinks = document.querySelectorAll('.scroll-link');
 const navHeight = navbar.getBoundingClientRect().height;
 
 // Change Modal Content Function
-const changeModalContent = (img, heading, text) => {
-  modalImg.src = img;
-  modalTitle.textContent = heading;
-  modalText.textContent = text;
-};
+// const changeModalContent = (img, heading, text) => {
+//   modalImg1.src = img;
+//   modalTitle.textContent = heading;
+//   modalText.textContent = text;
+// };
 
 const johnsProject = {
   title: 'Johns House',

@@ -239,25 +239,22 @@ Projects
 }
 
 /* Modal Styles */
-
 .modal-dialog {
   height: 97vh;
   box-shadow: var(--shadow-2);
+}
+
+.modal-content {
+  height: 100%;
 }
 
 .modal-img-1 {
   object-fit: cover;
 }
 
-@media screen and (min-width: 992px) {
-  .modal-dialog {
-    border: none !important;
-  }
-}
-
 @media screen and (min-width: 1200px) {
-  .modal-img-1 {
-    max-height: 517px;
+  .modal-content {
+    height: calc(100% - 79px);
   }
 }
 
