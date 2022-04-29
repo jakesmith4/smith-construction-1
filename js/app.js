@@ -64,15 +64,8 @@ const displayModalImgs = project => {
                         src="${item}"
                         class="d-block w-100 h-100 modal-img-1"
                         alt="Blue Ridge"
-                      />
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>
-                          Some representative placeholder content for the first
-                          slide.
-                        </p>
-                      </div>
-                    </div>`
+                      />    
+              </div>`
     )
     .join(' ');
   const modalDataNew = modalData.replace(
@@ -88,7 +81,6 @@ const displayModalImgs = project => {
                       type="button"
                       data-bs-target="#carouselExampleCaptions"
                       data-bs-slide-to="${index}"
-                      
                       aria-label="Slide ${index + 1}"
                     ></button>
                     `;
@@ -168,10 +160,8 @@ scrollLinks.forEach(link => {
 const navlinks = document.querySelectorAll('.nav-link');
 window.addEventListener('scroll', () => {
   if (window.scrollY > navHeight) {
-    // scrollLinks[0].classList.add('scroll-down');
     navlinks.forEach(link => link.classList.add('scroll-down'));
   } else {
-    // navlinks[0].classList.remove('scroll-down');
     navlinks.forEach(link => link.classList.remove('scroll-down'));
   }
 });
