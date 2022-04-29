@@ -123,6 +123,12 @@ Navbar
   transition: all 0.3s linear;
 }
 
+/* Navbar Dropdown Items */
+.dropdown-menu .dropdown-item:hover {
+  background: rgb(255, 193, 7);
+  color: #fff;
+}
+
 @media screen and (min-width: 345px) {
   .logo-img-container {
     font-size: 1.2rem;
