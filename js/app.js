@@ -17,21 +17,31 @@ const changeModalContent = (img, heading, text) => {
   modalText.textContent = text;
 };
 
-const firstProject = {
-  title: 'Blue Ridge House',
+const johnsProject = {
+  title: 'Johns House',
   imgs: [
-    './img/blue-ridge-outside-front.webp',
-    './img/blue-ridge-bar.webp',
-    './img/blue-ridge.webp',
+    './img/johns-house-1-min.jpg',
+    './img/johns-house-electric-min.jpg',
+    './img/johns-electric-1-min.jpg',
   ],
 };
 
-const secondProject = {
+const blueRidgeTrailer = {
   title: 'Blue Ridge Trailer',
   imgs: [
+    './img/blue-ridge-trailer-kitchen-min.jpg',
     './img/blue-ridge-trailer-bedroom-min.jpg',
     './img/blue-ridge-trailer-kitchen-min.jpg',
     './img/blue-ridge-trailer-front-porch-min.jpg',
+  ],
+};
+
+const blueRidgeHouse = {
+  title: 'Blue Ridge House',
+  imgs: [
+    './img/blue-ridge.webp',
+    './img/blue-ridge-outside-front.webp',
+    './img/blue-ridge-bar.webp',
   ],
 };
 
@@ -93,13 +103,13 @@ const displayModalImgs = project => {
 modalBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     if (btn.dataset.id === 'first') {
-      displayModalImgs(firstProject);
+      displayModalImgs(johnsProject);
     }
     if (btn.dataset.id === 'second') {
-      displayModalImgs(secondProject);
+      displayModalImgs(blueRidgeTrailer);
     }
     if (btn.dataset.id === 'third') {
-      displayModalImgs(secondProject);
+      displayModalImgs(blueRidgeHouse);
     }
   });
 });

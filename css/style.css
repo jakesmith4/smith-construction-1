@@ -75,6 +75,10 @@ p {
   text-shadow: 0.2rem 0.3rem 10px black;
 }
 
+.cover {
+  object-fit: cover;
+}
+
 /* 
 ==============
 Navbar
@@ -213,6 +217,20 @@ About
 Projects
 ===========
 */
+.project-img-container {
+  min-height: 280px;
+}
+
+.modal-btn {
+  position: relative;
+}
+
+.project-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 /* 
 ===========
