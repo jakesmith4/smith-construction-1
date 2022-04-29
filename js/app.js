@@ -23,6 +23,12 @@ const johnsProject = {
     './img/johns-house-1-min.jpg',
     './img/johns-house-electric-min.jpg',
     './img/johns-electric-1-min.jpg',
+    './img/johns-house-2-min.jpg',
+    './img/johns-house-3-min.jpg',
+    './img/johns-house-4-min.jpg',
+    './img/johns-house-5-min.jpg',
+    './img/johns-house-6-min.jpg',
+    './img/johns-house-7-min.jpg',
   ],
 };
 
@@ -56,7 +62,7 @@ const displayModalImgs = project => {
       item => `<div class="carousel-item">
                       <img
                         src="${item}"
-                        class="d-block w-100 modal-img-1"
+                        class="d-block w-100 h-100 modal-img-1"
                         alt="Blue Ridge"
                       />
                       <div class="carousel-caption d-none d-md-block">
@@ -73,6 +79,8 @@ const displayModalImgs = project => {
     /carousel-item/,
     'carousel-item active'
   );
+  carouselContainer.innerHTML = modalDataNew;
+  modalTitle.textContent = project.title;
 
   // Create Slider Btns Dynamicly
   modalBtnData = project.imgs.map((item, index) => {
@@ -95,8 +103,6 @@ const displayModalImgs = project => {
                     ></button>
                     `;
   carouselBtnContainer.innerHTML = modalBtnData.join(' ');
-  carouselContainer.innerHTML = modalDataNew;
-  modalTitle.textContent = project.title;
 };
 
 // Show Proper Modal Imgs

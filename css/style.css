@@ -232,6 +232,12 @@ Projects
   width: 100%;
 }
 
+/* Modal Styles */
+.modal-img-1 {
+  max-height: 500px;
+  object-fit: cover;
+}
+
 /* 
 ===========
 Services
