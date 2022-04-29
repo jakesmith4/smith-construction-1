@@ -59,7 +59,7 @@ const displayModalImgs = project => {
   // Create Modal Data Dynamicly
   const modalData = project.imgs
     .map(
-      item => `<div class="carousel-item">
+      item => `<div class="carousel-item h-100">
                       <img
                         src="${item}"
                         class="d-block w-100 h-100 modal-img-1"

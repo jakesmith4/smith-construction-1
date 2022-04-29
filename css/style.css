@@ -240,10 +240,25 @@ Projects
 
 /* Modal Styles */
 
+.modal-dialog {
+  height: 97vh;
+  box-shadow: var(--shadow-2);
+}
+
 .modal-img-1 {
-  max-height: 85vh;
-  min-height: 504px;
   object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .modal-dialog {
+    border: none !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-img-1 {
+    max-height: 517px;
+  }
 }
 
 /* 
