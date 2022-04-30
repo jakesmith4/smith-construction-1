@@ -113,7 +113,8 @@ Navbar
   padding-left: 0.5rem;
 }
 
-.nav-link.scroll-link {
+.nav-link.scroll-link,
+.nav-link.nav-page {
   padding: 0.5rem 1rem;
   transition: all 0.3s linear;
 }
@@ -160,22 +161,22 @@ Navbar
   .nav-item:hover .nav-last {
     padding: 0.5rem;
   }
-  .nav-item .nav-link.scroll-link,
+  .nav-item .nav-link.nav-page,
   .nav-item .nav-link.nav-last {
     color: #fff;
     font-size: 1.3rem;
     margin-right: 0.5rem;
   }
-  .nav-item .nav-link.scroll-link:hover,
+  .nav-item .nav-link.nav-page:hover,
   .nav-item .nav-link.nav-last:hover {
     color: rgb(255, 193, 7);
   }
-  .nav-item .nav-link.scroll-link:focus,
+  .nav-item .nav-link.nav-page:focus,
   .nav-item .nav-link.nav-last:focus {
     color: #fff;
   }
 
-  .nav-item .nav-link.scroll-link.scroll-down:hover,
+  .nav-item .nav-link.nav-page.scroll-down:hover,
   .nav-item .nav-link.nav-last.scroll-down:hover {
     color: #222;
   }
@@ -185,7 +186,7 @@ Navbar
   .logo-img-container {
     font-size: 1.5rem;
   }
-  .nav-item .nav-link.scroll-link,
+  .nav-item .nav-link.nav-page,
   .nav-item .nav-link.nav-last {
     font-size: 1.5rem;
     margin-right: 0.7rem;
@@ -443,4 +444,44 @@ Contact Section
 .contact-input,
 .contact-input-btn {
   border-radius: 10px;
+}
+
+/* 
+===========================
+ADDITIONS AND ADD ONS PAGE
+===========================
+*/
+/* 
+====================
+Header
+====================
+*/
+#header-addons {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/add-ons-bcg-2-min.jpg') no-repeat center/cover;
+}
+
+.addons-container {
+  height: 100vh;
+}
+
+.addons-paragraph {
+  background: rgba(255, 193, 7, 0.7);
+}
+
+/* 
+================
+Step One Section
+================
+*/
+.number-box {
+  height: 10rem;
+  font-size: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+  .number-box {
+    height: auto;
+  }
 }
