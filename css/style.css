@@ -79,6 +79,11 @@ p {
   object-fit: cover;
 }
 
+/* SUB PAGES UTILTIES */
+.page-paragraph {
+  background: rgba(255, 193, 7, 0.7);
+}
+
 /* 
 ==============
 Navbar
@@ -453,21 +458,13 @@ ADDITIONS AND ADD ONS PAGE
 */
 /* 
 ====================
-Header
+Header (Additions & Add Ons Page)
 ====================
 */
 #header-addons {
-  min-height: 100vh;
+  height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('../img/add-ons-bcg-2-min.jpg') no-repeat center/cover;
-}
-
-.addons-container {
-  height: 100vh;
-}
-
-.addons-paragraph {
-  background: rgba(255, 193, 7, 0.7);
 }
 
 /* 
@@ -483,5 +480,151 @@ Step One Section
 @media screen and (min-width: 768px) {
   .number-box {
     height: auto;
+  }
+}
+
+/* 
+===============
+NEW HOMES PAGE
+===============
+*/
+/* 
+================
+Header (New Homes Page)
+================
+*/
+#header-newhomes {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/new-homes-bcg-1-min.jpg') no-repeat center/cover;
+  height: 100vh;
+}
+
+/* 
+===============
+Step One Section (New Homes Page)
+===============
+*/
+.number-box {
+  height: 10rem;
+  font-size: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+  .number-box {
+    height: auto;
+  }
+}
+
+/* 
+==================
+New Homes Projects (New Homes Page)
+==================
+*/
+#new-homes-projects {
+  background: linear-gradient(to right, #fff 0 35%, #ffc107 35% 100%);
+}
+
+.new-homes-card {
+  margin-top: -3rem;
+}
+
+.social-icons-new-homes a {
+  margin-right: 0.5rem;
+  transition: var(--transition);
+}
+
+.divider {
+  background: linear-gradient(to right, #ffc107, #262626);
+  height: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .new-homes-card {
+    margin-top: -5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .new-homes-card {
+    margin-top: -7rem;
+    margin-left: 10rem;
+  }
+}
+
+/* 
+==================
+Diffrent Builders (New Homes Page)
+==================
+*/
+#builder-man {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../img/remodels-addonsw-builder-man-min.jpg') no-repeat center/cover;
+}
+
+.builder-man-background {
+  z-index: -2;
+}
+
+.builder-man-card {
+  transform: translate(-95%, -50%);
+  background: rgba(255, 193, 7, 0.6);
+  width: 50%;
+}
+
+.builder-man-title {
+  font-size: 1rem;
+}
+
+.builder-man-text {
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+@media screen and (min-width: 400px) {
+  .builder-man-title {
+    font-size: 1.5rem;
+  }
+
+  .builder-man-text {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+}
+@media screen and (min-width: 576px) {
+  .builder-man-title {
+    font-size: 2rem;
+  }
+
+  .builder-man-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .builder-man-card {
+    transform: translate(-120%, -50%);
+    width: 65%;
+  }
+
+  .builder-man-title {
+    font-size: 2.3rem;
+  }
+
+  .builder-man-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .builder-man-card {
+    transform: translate(-160%, -50%);
+    width: 70%;
+  }
+  .builder-man-title {
+    font-size: 2.5rem;
+  }
+
+  .builder-man-text {
+    font-size: 1.7rem;
   }
 }
