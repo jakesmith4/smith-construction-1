@@ -533,11 +533,6 @@ New Homes Projects (New Homes Page)
   transition: var(--transition);
 }
 
-.divider {
-  background: linear-gradient(to right, #ffc107, #262626);
-  height: 0.3rem;
-}
-
 @media screen and (min-width: 768px) {
   .new-homes-card {
     margin-top: -5rem;
@@ -547,7 +542,6 @@ New Homes Projects (New Homes Page)
 @media screen and (min-width: 992px) {
   .new-homes-card {
     margin-top: -7rem;
-    margin-left: 10rem;
   }
 }
 
@@ -561,70 +555,17 @@ Diffrent Builders (New Homes Page)
     url('../img/remodels-addonsw-builder-man-min.jpg') no-repeat center/cover;
 }
 
-.builder-man-background {
-  z-index: -2;
+.divider {
+  background: linear-gradient(to right, #ffc107, #262626);
+  height: 0.3rem;
 }
 
 .builder-man-card {
-  transform: translate(-95%, -50%);
   background: rgba(255, 193, 7, 0.6);
-  width: 50%;
 }
 
-.builder-man-title {
-  font-size: 1rem;
-}
-
-.builder-man-text {
-  font-size: 0.8rem;
-  line-height: 1.1;
-}
-
-@media screen and (min-width: 400px) {
-  .builder-man-title {
-    font-size: 1.5rem;
-  }
-
-  .builder-man-text {
-    font-size: 1rem;
-    line-height: inherit;
-  }
-}
 @media screen and (min-width: 576px) {
-  .builder-man-title {
-    font-size: 2rem;
-  }
-
   .builder-man-text {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .builder-man-card {
-    transform: translate(-120%, -50%);
-    width: 65%;
-  }
-
-  .builder-man-title {
-    font-size: 2.3rem;
-  }
-
-  .builder-man-text {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .builder-man-card {
-    transform: translate(-160%, -50%);
-    width: 70%;
-  }
-  .builder-man-title {
-    font-size: 2.5rem;
-  }
-
-  .builder-man-text {
-    font-size: 1.7rem;
+    line-height: inherit !important;
   }
 }
