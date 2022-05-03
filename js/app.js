@@ -113,6 +113,9 @@ window.addEventListener('scroll', () => {
     navbar.style.background = '#ffc107';
   } else {
     navbar.style.background = 'transparent';
+    if (navbar.classList.contains('navbar-home-repair')) {
+      navbar.style.background = '#222';
+    }
   }
   if (prevScrollPos > currentScrollPos) {
     navbar.style.top = '0';

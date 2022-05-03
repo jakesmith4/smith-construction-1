@@ -573,3 +573,38 @@ Diffrent Builders (New Homes Page)
     line-height: inherit !important;
   }
 }
+
+/* 
+================
+HOME REPAIR PAGE
+================
+*/
+/* 
+======================
+Navbar (Home Repair Page)
+======================
+*/
+.navbar-home-repair {
+  background: #222;
+}
+
+/* 
+=========================
+Header (Home Repair Page)
+=========================
+*/
+
+@media screen and (min-width: 768px) {
+  .home-repair-guy {
+    transform: rotateY(180deg);
+  }
+}
+
+/* 
+========================
+About (Home Repair Page
+========================
+*/
+.bg-secondary-light {
+  background: #f2f2f2;
+}
