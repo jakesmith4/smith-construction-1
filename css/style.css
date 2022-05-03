@@ -602,9 +602,30 @@ Header (Home Repair Page)
 
 /* 
 ========================
-About (Home Repair Page
+About (Home Repair Page)
 ========================
 */
 .bg-secondary-light {
   background: #f2f2f2;
+}
+
+/* 
+=======================
+Repair Contact (Home Repair Page)
+=======================
+*/
+.repair-contact-container {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+/* 
+==============
+Services Repair (Home Repair Page)
+==============
+*/
+@media screen and (min-width: 768px) {
+  .repair-card {
+    height: 252px;
+  }
 }
