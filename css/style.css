@@ -89,9 +89,9 @@ p {
 }
 
 /* 
-==============
+=======
 Navbar
-==============
+=======
 */
 .logo-img-container {
   font-size: 1.1rem;
@@ -203,9 +203,9 @@ Navbar
 }
 
 /* 
-===========
+=======
 Header
-===========
+=======
 */
 #header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -214,9 +214,9 @@ Header
 }
 
 /* 
-==============
+=====
 About
-=============
+=====
 */
 .about-picture {
   background: url('../img/about.jpg') no-repeat center/cover fixed;
@@ -229,9 +229,9 @@ About
 }
 
 /* 
-===========
+========
 Projects
-===========
+========
 */
 .project-img-container {
   min-height: 280px;
@@ -269,9 +269,9 @@ Projects
 }
 
 /* 
-===========
+========
 Services
-===========
+========
 */
 .img-height {
   min-height: 241px;
@@ -330,9 +330,9 @@ Info Filler
 }
 
 /* 
-============
+===========
 Categories
-============
+===========
 */
 #categories {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -437,7 +437,7 @@ Experience Section
 }
 
 /* 
-=======================
+========================
 Project Planning Section
 ========================
 */
@@ -461,9 +461,9 @@ ADDITIONS AND ADD ONS PAGE
 ===========================
 */
 /* 
-====================
+=================================
 Header (Additions & Add Ons Page)
-====================
+=================================
 */
 #header-addons {
   height: 100vh;
@@ -472,30 +472,14 @@ Header (Additions & Add Ons Page)
 }
 
 /* 
-================
-Step One Section
-================
-*/
-.number-box {
-  height: 10rem;
-  font-size: 10rem;
-}
-
-@media screen and (min-width: 768px) {
-  .number-box {
-    height: auto;
-  }
-}
-
-/* 
 ===============
 NEW HOMES PAGE
 ===============
 */
 /* 
-================
+=======================
 Header (New Homes Page)
-================
+=======================
 */
 #header-newhomes {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -504,9 +488,9 @@ Header (New Homes Page)
 }
 
 /* 
-===============
+=================================
 Step One Section (New Homes Page)
-===============
+=================================
 */
 .number-box {
   height: 10rem;
@@ -520,9 +504,9 @@ Step One Section (New Homes Page)
 }
 
 /* 
-==================
+===================================
 New Homes Projects (New Homes Page)
-==================
+===================================
 */
 #new-homes-projects {
   background: linear-gradient(to right, #fff 0 35%, #ffc107 35% 100%);
@@ -550,9 +534,9 @@ New Homes Projects (New Homes Page)
 }
 
 /* 
-==================
+==================================
 Diffrent Builders (New Homes Page)
-==================
+==================================
 */
 #builder-man {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -580,9 +564,9 @@ HOME REPAIR PAGE
 ================
 */
 /* 
-======================
+=========================
 Navbar (Home Repair Page)
-======================
+=========================
 */
 .navbar-home-repair {
   background: #222;
@@ -610,9 +594,9 @@ About (Home Repair Page)
 }
 
 /* 
-=======================
+=================================
 Repair Contact (Home Repair Page)
-=======================
+=================================
 */
 .repair-contact-container {
   border-top-left-radius: 2rem;
@@ -661,9 +645,9 @@ Header (Outdoor Living Page)
 }
 
 /* 
-======================
+=========================================
 Outdoor Living Grid (Outdoor Living Page)
-======================
+=========================================
 */
 .living-item {
   height: 370px;
