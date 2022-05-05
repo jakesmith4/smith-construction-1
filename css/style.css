@@ -656,3 +656,24 @@ Outdoor Living Grid (Outdoor Living Page)
 .living-img {
   object-fit: cover;
 }
+
+/* 
+==================================
+High Quality (Outdoor Living Page)
+==================================
+*/
+.high-quality-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/porch-1.jpg') no-repeat center/cover;
+  height: 100vh;
+}
+
+.hq-cont {
+  transform: translateY(-5rem);
+}
+
+@media screen and (min-width: 576px) {
+  .porch-img {
+    height: 227px;
+  }
+}
