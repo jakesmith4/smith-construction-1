@@ -629,3 +629,46 @@ Services Repair (Home Repair Page)
     height: 252px;
   }
 }
+
+/* 
+===============================================
+Home Services Filler Section (Home Repair Page)
+===============================================
+*/
+#home-repair-filler {
+  background: #abb686;
+}
+
+.home-repair-filler-p {
+  max-width: 600px;
+}
+
+/* 
+====================
+OUTDOOR LIVING PAGE
+====================
+*/
+
+/* 
+=============================
+Header (Outdoor Living Page)
+=============================
+*/
+#outdoor-living {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../img/outdoor-living-bcg-min.jpg') no-repeat center/cover;
+  height: 100vh;
+}
+
+/* 
+======================
+Outdoor Living Grid (Outdoor Living Page)
+======================
+*/
+.living-item {
+  height: 370px;
+}
+
+.living-img {
+  object-fit: cover;
+}
