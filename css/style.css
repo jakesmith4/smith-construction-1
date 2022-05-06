@@ -677,3 +677,52 @@ High Quality (Outdoor Living Page)
     height: 227px;
   }
 }
+
+/* 
+==================================
+Outdoor About (Outdoor Living Page
+==================================
+*/
+#outdoor-about {
+  background: #242c53;
+}
+
+/* Who We Are */
+#how-we-are {
+  height: 100vh;
+}
+
+.top-img {
+  top: -3rem;
+  z-index: 2;
+}
+
+.patio-img {
+  min-height: 275px;
+  object-fit: cover;
+}
+
+.back-block {
+  height: 25rem;
+  width: 70%;
+  top: 10%;
+  right: 0;
+  z-index: 0;
+}
+
+.outdoor-card {
+  top: 28%;
+  left: 20%;
+  z-index: 3;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 992px) {
+  .patio-img {
+    min-height: 300px;
+  }
+  .outdoor-card {
+    top: 40%;
+    left: 40%;
+  }
+}
