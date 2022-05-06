@@ -688,12 +688,8 @@ Outdoor About (Outdoor Living Page
 }
 
 /* Who We Are */
-#how-we-are {
-  height: 100vh;
-}
-
 .top-img {
-  top: -3rem;
+  margin-top: -3rem;
   z-index: 2;
 }
 
@@ -704,17 +700,21 @@ Outdoor About (Outdoor Living Page
 
 .back-block {
   height: 25rem;
-  width: 70%;
-  top: 10%;
-  right: 0;
+  margin-top: -10rem;
   z-index: 0;
 }
 
 .outdoor-card {
-  top: 28%;
-  left: 20%;
   z-index: 3;
   max-width: 500px;
+  margin-top: -18rem;
+  margin-left: 4rem;
+}
+
+@media screen and (min-width: 576px) {
+  .outdoor-card {
+    margin-right: 2rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -722,7 +722,6 @@ Outdoor About (Outdoor Living Page
     min-height: 300px;
   }
   .outdoor-card {
-    top: 40%;
-    left: 40%;
+    margin-top: -20rem;
   }
 }
