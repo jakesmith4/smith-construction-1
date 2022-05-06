@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300;700&display=swap");
 
 /* Vars */
 :root {
   /* Fonts */
-  --headingFont: 'Spectral', serif;
-  --bodyFont: 'Karla', sans-serif;
+  --headingFont: "Spectral", serif;
+  --bodyFont: "Karla", sans-serif;
   --smallText: 0.8rem;
   /* Background Colors */
   --backgroundColor: var(--grey-50);
@@ -87,6 +87,12 @@ p {
 .radius {
   border-radius: 1.5rem;
 }
+
+/* 
+=========
+HOME PAGE
+=========
+*/
 
 /* 
 =======
@@ -209,7 +215,7 @@ Header
 */
 #header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../img/bcg-hero.jpeg') no-repeat center/cover;
+    url("../img/bcg-hero.jpeg") no-repeat center/cover;
   height: 100vh;
 }
 
@@ -219,7 +225,7 @@ About
 =====
 */
 .about-picture {
-  background: url('../img/about.jpg') no-repeat center/cover fixed;
+  background: url("../img/about.jpg") no-repeat center/cover fixed;
 }
 
 @media screen and (min-width: 768px) {
@@ -310,7 +316,7 @@ Work Examples
 
 .overlay::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -325,7 +331,7 @@ Info Filler
  */
 #info {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../img/wood-plank.jpg') no-repeat center/cover fixed;
+    url("../img/wood-plank.jpg") no-repeat center/cover fixed;
   min-height: 500px;
 }
 
@@ -336,7 +342,7 @@ Categories
 */
 #categories {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../img/roof-truss-bck.jpg') no-repeat center/cover;
+    url("../img/roof-truss-bck.jpg") no-repeat center/cover;
 }
 
 .categories-card {
@@ -442,7 +448,7 @@ Project Planning Section
 ========================
 */
 #project-planning {
-  background: url('../img/project-planning.jpg') no-repeat center/cover;
+  background: url("../img/project-planning.jpg") no-repeat center/cover;
 }
 
 /* 
@@ -461,14 +467,14 @@ ADDITIONS AND ADD ONS PAGE
 ===========================
 */
 /* 
-=================================
-Header (Additions & Add Ons Page)
-=================================
+======
+Header
+======
 */
 #header-addons {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../img/add-ons-bcg-2-min.jpg') no-repeat center/cover;
+    url("../img/add-ons-bcg-2-min.jpg") no-repeat center/cover;
 }
 
 /* 
@@ -477,20 +483,20 @@ NEW HOMES PAGE
 ===============
 */
 /* 
-=======================
-Header (New Homes Page)
-=======================
+======
+Header
+======
 */
 #header-newhomes {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../img/new-homes-bcg-1-min.jpg') no-repeat center/cover;
+    url("../img/new-homes-bcg-1-min.jpg") no-repeat center/cover;
   height: 100vh;
 }
 
 /* 
-=================================
-Step One Section (New Homes Page)
-=================================
+================
+Step One Section
+================
 */
 .number-box {
   height: 10rem;
@@ -504,9 +510,9 @@ Step One Section (New Homes Page)
 }
 
 /* 
-===================================
-New Homes Projects (New Homes Page)
-===================================
+==================
+New Homes Projects
+==================
 */
 #new-homes-projects {
   background: linear-gradient(to right, #fff 0 35%, #ffc107 35% 100%);
@@ -534,13 +540,13 @@ New Homes Projects (New Homes Page)
 }
 
 /* 
-==================================
-Diffrent Builders (New Homes Page)
-==================================
+=================
+Diffrent Builders
+=================
 */
 #builder-man {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../img/remodels-addonsw-builder-man-min.jpg') no-repeat center/cover;
+    url("../img/remodels-addonsw-builder-man-min.jpg") no-repeat center/cover;
 }
 
 .divider {
@@ -564,18 +570,18 @@ HOME REPAIR PAGE
 ================
 */
 /* 
-=========================
-Navbar (Home Repair Page)
-=========================
+======
+Navbar
+======
 */
 .navbar-home-repair {
   background: #222;
 }
 
 /* 
-=========================
-Header (Home Repair Page)
-=========================
+======
+Header
+======
 */
 
 @media screen and (min-width: 768px) {
@@ -585,18 +591,18 @@ Header (Home Repair Page)
 }
 
 /* 
-========================
-About (Home Repair Page)
-========================
+=====
+About
+=====
 */
 .bg-secondary-light {
   background: #f2f2f2;
 }
 
 /* 
-=================================
-Repair Contact (Home Repair Page)
-=================================
+==============
+Repair Contact
+==============
 */
 .repair-contact-container {
   border-top-left-radius: 2rem;
@@ -604,9 +610,9 @@ Repair Contact (Home Repair Page)
 }
 
 /* 
-==================================
-Services Repair (Home Repair Page)
-==================================
+===============
+Services Repair
+===============
 */
 @media screen and (min-width: 768px) {
   .repair-card {
@@ -615,9 +621,9 @@ Services Repair (Home Repair Page)
 }
 
 /* 
-===============================================
-Home Services Filler Section (Home Repair Page)
-===============================================
+============================
+Home Services Filler Section
+============================
 */
 #home-repair-filler {
   background: #abb686;
@@ -634,20 +640,20 @@ OUTDOOR LIVING PAGE
 */
 
 /* 
-=============================
-Header (Outdoor Living Page)
-=============================
+======
+Header
+======
 */
 #outdoor-living {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('../img/outdoor-living-bcg-min.jpg') no-repeat center/cover;
+    url("../img/outdoor-living-bcg-min.jpg") no-repeat center/cover;
   height: 100vh;
 }
 
 /* 
-=========================================
-Outdoor Living Grid (Outdoor Living Page)
-=========================================
+===================
+Outdoor Living Grid
+===================
 */
 .living-item {
   height: 370px;
@@ -658,13 +664,13 @@ Outdoor Living Grid (Outdoor Living Page)
 }
 
 /* 
-==================================
-High Quality (Outdoor Living Page)
-==================================
+============
+High Quality
+============
 */
 .high-quality-img {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('../img/porch-1.jpg') no-repeat center/cover;
+    url("../img/porch-1.jpg") no-repeat center/cover;
   height: 100vh;
 }
 
@@ -679,15 +685,19 @@ High Quality (Outdoor Living Page)
 }
 
 /* 
-==================================
-Outdoor About (Outdoor Living Page
-==================================
+===============
+Outdoor About
+===============
 */
 #outdoor-about {
   background: #242c53;
 }
 
-/* Who We Are */
+/*
+==================
+Pride
+==================
+*/
 .top-img {
   margin-top: -3rem;
   z-index: 2;
