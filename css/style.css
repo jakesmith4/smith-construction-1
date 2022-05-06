@@ -731,6 +731,9 @@ Pride
   .patio-img {
     min-height: 300px;
   }
+  .back-block {
+    margin-top: -15rem;
+  }
   .outdoor-card {
     margin-top: -20rem;
   }
