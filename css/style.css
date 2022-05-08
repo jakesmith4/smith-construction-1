@@ -799,3 +799,44 @@ Paint Tips
   height: 313px;
   object-fit: cover;
 }
+
+/* 
+=============
+PLUMBING PAGE
+=============
+*/
+/* 
+===============
+Header Plumbing
+===============
+*/
+#header-plumbing {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/plumbing-header-min.jpg") no-repeat center/cover;
+}
+
+.plumbing-info {
+  margin-top: 4rem;
+}
+
+/* 
+================
+About Plumbing
+================
+*/
+.secondary-plumbing-img {
+  max-height: 552px;
+  object-fit: cover;
+}
+
+.about-plumber-card {
+  background: #62aafb;
+}
+
+@media screen and (min-width: 768px) {
+  .main-plumbing-img {
+    max-height: 330px;
+    object-fit: cover;
+    margin-top: 3rem;
+  }
+}
