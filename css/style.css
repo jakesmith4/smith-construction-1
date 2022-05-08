@@ -853,8 +853,8 @@ Fast Plumbing
 .fast-plumbing-col::after {
   content: "";
   position: absolute;
-  top: -2rem;
-  left: -2rem;
+  top: -1rem;
+  left: -1rem;
   width: 100%;
   height: 100%;
   background: #ffc107;
@@ -864,4 +864,51 @@ Fast Plumbing
 .fast-plumbing-img {
   z-index: 2;
   max-height: 443px;
+}
+
+@media screen and (min-width: 576px) {
+  .fast-plumbing-col::after {
+    top: -2rem;
+    left: -2rem;
+  }
+}
+
+/* 
+===================
+Affordable Plumbing
+===================
+*/
+.affordable-img-container-1,
+.affordable-img-container-2 {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 4;
+}
+
+.affordable-img-container-1 {
+  right: 0.7rem;
+}
+
+.affordable-img-container-2 {
+  left: 0.7rem;
+}
+
+@media screen and (min-width: 576px) {
+  .affordable-ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .affordable-ul {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .affordable-ul {
+    font-size: 1.5rem;
+  }
 }
