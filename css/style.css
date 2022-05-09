@@ -951,10 +951,6 @@ Electrical-Services
     margin-top: 7rem;
   }
 
-  .electrical-col:nth-of-type(3) {
-    margin-top: -7rem;
-  }
-
   .electrical-img {
     height: 191px;
   }
