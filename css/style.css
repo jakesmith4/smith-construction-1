@@ -912,3 +912,60 @@ Affordable Plumbing
     font-size: 1.5rem;
   }
 }
+
+/* 
+===============
+ELECTRICAL PAGE
+===============
+*/
+
+/* 
+=================
+Electrical Header
+=================
+*/
+#electrical-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../img/electrical-bcg-2-min.jpg") no-repeat 10% 50% / cover;
+}
+
+/* 
+===================
+Electrical-Services
+===================
+*/
+#electrical-services {
+  background: url("../img/nightcity-bcg-min.jpg") no-repeat center/cover;
+}
+
+.electrical-img {
+  height: 280px;
+}
+
+.electrical-p {
+  background: rgba(33, 37, 41, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .electrical-col:nth-of-type(2) {
+    margin-top: 7rem;
+  }
+
+  .electrical-col:nth-of-type(3) {
+    margin-top: -7rem;
+  }
+
+  .electrical-img {
+    height: 191px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .electrical-col:nth-of-type(3) {
+    margin-top: 14rem;
+  }
+
+  .electrical-img {
+    height: 204px;
+  }
+}
