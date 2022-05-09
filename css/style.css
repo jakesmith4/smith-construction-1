@@ -775,6 +775,11 @@ Painting Header
 Painting Jobs
 =============
 */
+.painting-jobs-img {
+  min-height: 375px;
+  object-fit: cover;
+}
+
 .paint-job-card::before {
   content: "";
   position: absolute;
