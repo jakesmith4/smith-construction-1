@@ -965,3 +965,37 @@ Electrical-Services
     height: 204px;
   }
 }
+
+/* 
+===============
+Electrical Info
+===============
+*/
+#electrical-info {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/electrical-info-min.jpg") no-repeat center/cover;
+}
+
+/* 
+==================
+Electrical Contact
+==================
+*/
+#electrical-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/electrical-contact-bcg-min.jpg") no-repeat center/cover;
+}
+
+/* 317 */
+/* 252 */
+
+.electrical-contact-img {
+  height: 317px;
+}
+
+@media screen and (min-width: 768px) {
+  .electrical-contact-img,
+  .electrical-contact-info {
+    height: 252px;
+  }
+}
