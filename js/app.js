@@ -41,6 +41,36 @@ const blueRidgeHouse = {
   ],
 };
 
+const allenDonnetteHouse = {
+  title: 'Allen & Donnettes House',
+  imgs: [
+    './img/allens-home-main-min.jpg',
+    './img/base-1-min.jpg',
+    './img/base-2-min.jpg',
+    './img/base-3-min.jpg',
+    './img/base-4-min.jpg',
+    './img/base-5-min.jpg',
+    './img/walls-min.jpg',
+    './img/frame-1-min.jpg',
+    './img/frame-2-min.jpg',
+    './img/frame-3-min.jpg',
+    './img/tyvek-1-min.jpg',
+    './img/tyvek-2-min.jpg',
+    './img/siding-1-min.jpg',
+    './img/cornus-line-1-min.jpg',
+    './img/cornus-line-2-min.jpg',
+    './img/roofing-1-min.jpg',
+    './img/roofing-2-min.jpg',
+    './img/roofing-3-min.jpg',
+    './img/roofing-4-min.jpg',
+    './img/finish-1-min.jpg',
+    './img/finish-2-min.jpg',
+    './img/finish-3-min.jpg',
+    './img/finish-4-min.jpg',
+    './img/finish-5-min.jpg',
+  ],
+};
+
 const carouselContainer = document.querySelector('.carousel-container');
 const carouselBtnContainer = document.querySelector('.carousel-btn-container');
 
@@ -98,6 +128,9 @@ modalBtns.forEach(btn => {
     }
     if (btn.dataset.id === 'third') {
       displayModalImgs(blueRidgeHouse);
+    }
+    if (btn.dataset.id === 'fourth') {
+      displayModalImgs(allenDonnetteHouse);
     }
   });
 });
