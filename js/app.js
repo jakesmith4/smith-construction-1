@@ -19,6 +19,12 @@ const johnsProject = {
     './img/johns-house-5-min.jpg',
     './img/johns-house-6-min.jpg',
     './img/johns-house-7-min.jpg',
+    './img/johns-house-8-min.jpg',
+    './img/johns-house-9-min.jpg',
+    './img/johns-house-10-min.jpg',
+    './img/johns-house-11-min.jpg',
+    './img/johns-house-12-min.jpg',
+    './img/johns-house-13-min.jpg',
   ],
 };
 
