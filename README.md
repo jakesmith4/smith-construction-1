@@ -4,15 +4,7 @@
 
 ![Markdown Logo](./markdown-imgs/bootstrap-logo-small.png)
 
-## _**HTML5**_
-
-![HTML5](./markdown-imgs/html5-min.png)
-
-## _**CSS3**_
-
-![CSS3](./markdown-imgs/css-small-min.jpg)
-
-## _**Javascript**_
+## _**Built With Some Custom Javascript**_
 
 ![Javascript](./markdown-imgs/javacript-min.png)
 
