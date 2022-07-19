@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Spectral:wght@300;700&display=swap');
 
 /* Vars */
 :root {
   /* Fonts */
-  --headingFont: "Spectral", serif;
-  --bodyFont: "Karla", sans-serif;
+  --headingFont: 'Spectral', serif;
+  --bodyFont: 'Karla', sans-serif;
   --smallText: 0.8rem;
   /* Background Colors */
   --backgroundColor: var(--grey-50);
@@ -219,7 +219,7 @@ Header
 */
 #header {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/bcg-hero.jpeg") no-repeat center/cover;
+    url('../img/bcg-hero.jpeg') no-repeat center/cover;
   height: 100vh;
 }
 
@@ -229,7 +229,7 @@ About
 =====
 */
 .about-picture {
-  background: url("../img/about.jpg") no-repeat center/cover fixed;
+  background: url('../img/about.jpg') no-repeat center/cover fixed;
 }
 
 @media screen and (min-width: 768px) {
@@ -310,6 +310,7 @@ Work Examples
 }
 
 .carousel-height {
+  height: 350px;
   max-height: 500px;
   object-fit: cover;
 }
@@ -320,12 +321,18 @@ Work Examples
 
 .overlay::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-height {
+    height: 500px;
+  }
 }
 
 /* 
@@ -335,7 +342,7 @@ Info Filler
  */
 #info {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/wood-plank.jpg") no-repeat center/cover fixed;
+    url('../img/wood-plank.jpg') no-repeat center/cover fixed;
   min-height: 500px;
 }
 
@@ -346,7 +353,7 @@ Categories
 */
 #categories {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/roof-truss-bck.jpg") no-repeat center/cover;
+    url('../img/roof-truss-bck.jpg') no-repeat center/cover;
 }
 
 .categories-card {
@@ -452,7 +459,7 @@ Project Planning Section
 ========================
 */
 #project-planning {
-  background: url("../img/project-planning.jpg") no-repeat center/cover;
+  background: url('../img/project-planning.jpg') no-repeat center/cover;
 }
 
 /* 
@@ -478,7 +485,7 @@ Header
 #header-addons {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/add-ons-bcg-2-min.jpg") no-repeat center/cover;
+    url('../img/add-ons-bcg-2-min.jpg') no-repeat center/cover;
 }
 
 /* 
@@ -493,7 +500,7 @@ Header
 */
 #header-newhomes {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/new-homes-bcg-1-min.jpg") no-repeat center/cover;
+    url('../img/new-homes-bcg-1-min.jpg') no-repeat center/cover;
   height: 100vh;
 }
 
@@ -550,7 +557,7 @@ Diffrent Builders
 */
 #builder-man {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/remodels-addonsw-builder-man-min.jpg") no-repeat center/cover;
+    url('../img/remodels-addonsw-builder-man-min.jpg') no-repeat center/cover;
 }
 
 .divider {
@@ -650,7 +657,7 @@ Header
 */
 #outdoor-living {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/outdoor-living-bcg-min.jpg") no-repeat center/cover;
+    url('../img/outdoor-living-bcg-min.jpg') no-repeat center/cover;
   height: 100vh;
 }
 
@@ -674,7 +681,7 @@ High Quality
 */
 .high-quality-img {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/porch-1.jpg") no-repeat center/cover;
+    url('../img/porch-1.jpg') no-repeat center/cover;
   height: 100vh;
 }
 
@@ -756,7 +763,7 @@ Painting Header
 */
 #painting-header {
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("../img/painting-bcg.jpg") no-repeat 70% 50% / cover;
+    url('../img/painting-bcg.jpg') no-repeat 70% 50% / cover;
 }
 
 .painting-info {
@@ -781,7 +788,7 @@ Painting Jobs
 }
 
 .paint-job-card::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -797,7 +804,7 @@ Paint Repairs
 */
 #paint-repairs {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../img/painting-repairs.jpg") no-repeat top/cover;
+    url('../img/painting-repairs.jpg') no-repeat top/cover;
 }
 /* 
 ==========
@@ -821,7 +828,7 @@ Header Plumbing
 */
 #header-plumbing {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/plumbing-header-min.jpg") no-repeat center/cover;
+    url('../img/plumbing-header-min.jpg') no-repeat center/cover;
 }
 
 .plumbing-info {
@@ -856,7 +863,7 @@ Fast Plumbing
 =============
 */
 .fast-plumbing-col::after {
-  content: "";
+  content: '';
   position: absolute;
   top: -1rem;
   left: -1rem;
@@ -931,7 +938,7 @@ Electrical Header
 */
 #electrical-header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../img/electrical-bcg-2-min.jpg") no-repeat 10% 50% / cover;
+    url('../img/electrical-bcg-2-min.jpg') no-repeat 10% 50% / cover;
 }
 
 /* 
@@ -940,7 +947,7 @@ Electrical-Services
 ===================
 */
 #electrical-services {
-  background: url("../img/nightcity-bcg-min.jpg") no-repeat center/cover;
+  background: url('../img/nightcity-bcg-min.jpg') no-repeat center/cover;
 }
 
 .electrical-img {
@@ -978,7 +985,7 @@ Electrical Info
 */
 #electrical-info {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/electrical-info-min.jpg") no-repeat center/cover;
+    url('../img/electrical-info-min.jpg') no-repeat center/cover;
 }
 
 /* 
@@ -988,7 +995,7 @@ Electrical Contact
 */
 #electrical-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../img/electrical-contact-bcg-min.jpg") no-repeat center/cover;
+    url('../img/electrical-contact-bcg-min.jpg') no-repeat center/cover;
 }
 
 /* 317 */
