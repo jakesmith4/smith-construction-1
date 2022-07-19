@@ -1,5 +1,7 @@
 # House Building Construction Website
 
+[SEE FULL SITE HERE ON NETLIFY](https://smithconstruction.netlify.app/)
+
 ## _**Built With Bootstrap**_
 
 ![Markdown Logo](./markdown-imgs/bootstrap-logo-small.png)
