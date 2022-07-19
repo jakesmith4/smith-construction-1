@@ -27,3 +27,23 @@
 ## _**OUR STORY SECTION**_
 
 ![Our Story Section](./markdown-imgs/our-story-small-min.png)
+
+## _**BUILDING COMPANY SECTION**_
+
+![Building Company](./markdown-imgs/building-company-small-min.png)
+
+## _**BUILDING PRIDE SECTION**_
+
+![Building Pride](./markdown-imgs/building-pride-min.png)
+
+## _**PROJECT PLANNING SECTION**_
+
+![Project Planning](./markdown-imgs/project-planing-min.png)
+
+## _**CONTACT SECTION**_
+
+![Contact Section](./markdown-imgs/contact-min.png)
+
+## _**FOOTER**_
+
+![Footer](./markdown-imgs/footer-min.png)
