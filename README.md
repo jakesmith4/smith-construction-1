@@ -1,6 +1,8 @@
-# House Building Construction Website
+# HOUSE BUILDING CONSTRUCTION WEBSITE
 
 [SEE FULL SITE HERE ON NETLIFY](https://smithconstruction.netlify.app/)
+
+# Technologies Used
 
 ## _**Built With Bootstrap**_
 
@@ -9,6 +11,12 @@
 ## _**Built With Some Custom Javascript**_
 
 ![Javascript](./markdown-imgs/javacript-min.png)
+
+# Website Content
+
+## _**HEADER**_
+
+![Header](./markdown-imgs/smith-header-min.png)
 
 ## _**Skills Section**_
 
@@ -49,3 +57,13 @@
 ## _**FOOTER**_
 
 ![Footer](./markdown-imgs/footer-min.png)
+
+# Javascript Widgets
+
+## _**JAVASCRIPT POPUP SLIDER**_
+
+![Javascript Widget](./markdown-imgs/javascript-widget-min.png)
+
+## _**JAVACRIPT IN-PAGE SLIDER**_
+
+![Javascript Widget](./markdown-imgs/javascript-inpage-slider-min.png)
