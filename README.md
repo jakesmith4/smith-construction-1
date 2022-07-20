@@ -67,3 +67,7 @@
 ## _**JAVACRIPT IN-PAGE SLIDER**_
 
 ![Javascript Widget](./markdown-imgs/javascript-inpage-slider-min.png)
+
+# More Content Inside
+
+There are _**many**_ more pages inside this website, this content showed above is only the _**home page.**_
